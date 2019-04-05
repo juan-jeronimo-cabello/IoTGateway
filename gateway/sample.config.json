@@ -1,0 +1,28 @@
+{
+    "gateway":{
+        "name":"My Test Gateway",
+        "id":"475295a8-8236-497a-a93c-fe3b820413a9",
+        "logs":"../logs",
+        "heartbeat":60000,
+        "sleepTime":1000
+    },
+    "eventHub":{  
+        "eventHubURL":"https://myventhub.com",
+        "eventHubSharedAccessKey":"11111111111111111111111111111"
+    },
+    
+    "sensors":[
+        {
+            "name":"sensor1",
+            "dataLocation":"../sensor_data/sensor_1",
+            "realtime": false
+        },
+        {
+            "name":"sensor2",
+            "dataLocation":"../sensor_data/sensor_2",
+            "realtime": true
+        }
+
+    ]
+
+}
